@@ -1,0 +1,26 @@
+<ion-view view-title="User">
+  <!-- do you want padding? -->
+  <ion-content class="padding">
+
+    <!-- content goes here -->
+    <div class="list">
+      <label class="item item-input">
+        <input name="email" type="text" placeholder="E-Mail" ng-model="ctrl.user.email">
+      </label>
+      <label class="item item-input">
+        <input name="password" type="password" placeholder="Password" ng-model="ctrl.user.password">
+      </label>
+    </div>
+    <div class="padding">
+      <button class="button button-block button-stable"
+        ng-click="ctrl.signup()">
+        Sign up
+      </button>
+      <button class="button button-block button-positive"
+        ng-click="ctrl.signin()">
+        Sign in
+      </button>
+    </div>
+
+  </ion-content>
+</ion-view>

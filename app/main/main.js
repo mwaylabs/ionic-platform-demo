@@ -16,6 +16,16 @@ angular.module('main', [
       abstract: true,
       templateUrl: 'main/templates/tabs.html'
     })
+
+      .state('main.user', {
+        url: '/user',
+        views: {
+          'tab-user': {
+            templateUrl: 'main/templates/user.html',
+            controller: 'UserCtrl as ctrl'
+          }
+        }
+      })
       .state('main.list', {
         url: '/list',
         views: {
