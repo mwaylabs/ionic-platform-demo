@@ -21,6 +21,12 @@
         Sign in
       </button>
     </div>
+    <div class="list" ng-if="ctrl.user.resultType">
+      <ion-item class="item item-divider">{{ctrl.user.resultType}} for {{ctrl.user.email}}:</ion-item>
+      <ion-item class="item item-text-wrap">
+        <pre>{{ctrl.user.result | json}}</pre>
+      </ion-item>
+    </div>
 
   </ion-content>
 </ion-view>
