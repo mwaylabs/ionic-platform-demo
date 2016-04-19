@@ -1,18 +1,6 @@
 # My Project
 This project was generated with Generator-M-Ionic v1.7.0. For more info visit the [repository](https://github.com/mwaylabs/generator-m-ionic) or check out the README below.
 
-## Notes for Ionic CLI
-https://forum.ionicframework.com/t/experience-using-the-ionic-cli-programatically-from-inside-node/49302
-install cli locally (on a per project basis) because
-- ensure tested with version
-- perform build before upload
-- maybe just upload and leave out unnecessary steps (writing to ionic.io.bundle.min.js) https://github.com/driftyco/ionic-platform-web-client/issues/4
-- editing library code? really?
-- why two config files?
-- why not simply an angular service?
-- shorten by implicitly running build and setting up ionic.io.bundle
-- give example of cordova usage in node
-
 # Generator-M-Ionic v1.7.0
 
 [![NPM version](http://img.shields.io/npm/v/generator-m-ionic.svg?style=flat-square)][npm-url]
